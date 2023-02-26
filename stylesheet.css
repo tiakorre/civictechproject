@@ -1,0 +1,35 @@
+
+.everything {
+  padding: 20px 20px;
+}
+.lw { font-size: 20px; }
+
+.regular{
+
+margin: 8px 8;
+}
+input[type=submit] {
+  background-color: #d45a55;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 8;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 8;
+  display: inline-block;
+  background-color : #ffebeb; 
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+
+li { background:white;
+  padding: 10px 10px;
+  list-style-type: none;
+}
+li.odd { background: #d9d9d9; }

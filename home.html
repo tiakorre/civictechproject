@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+</head>
+<body>
+<div class="everything">
+  <div class="regular">
+Inflation is ridiculous! What grocery store items are you dreading buying?
+</div>
+  <form action="">
+    <input type="text" id="food" name="food" placeholder="eggs">
+    <input type="submit" value="submit">
+  </form>
+    <ul>
+{% for data in datalist %}
+    <li>{{ data.store }} {{ data.price }}</li>
+{% endfor %}
+  </ul>
+  </div>
+</body>
+</html>
