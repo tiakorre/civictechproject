@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 
 # Set up the Google Maps API request
-api_key = 'AIzaSyDYFAVWtbx70nJZUFsqUFuQE_RA7S-uQ1A'
+api_key = 'your API here'
 url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
 
 # Get the user's location
